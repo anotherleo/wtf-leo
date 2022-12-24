@@ -1,0 +1,72 @@
+[
+	{
+		"id": "1",
+		"title": "Alura Space",
+		"type": "Projeto de Curso",
+		"tech": "React",
+		"description": "Aprendi a usar arquivos estáticos como imagens e JSON, usar CSS Modules com SASS e a fazer um filtro de tags.",
+		"deploy": "https://alura-space-ruby.vercel.app"
+	},
+	{
+		"id": "2",
+		"title": "Organo",
+		"type": "Projeto de Curso",
+		"tech": "React",
+		"description": "Introdução ao React e seus componentes."
+	},
+	{
+		"id": "3",
+		"title": "Organo Parte 2",
+		"type": "Projeto de Curso",
+		"tech": "React",
+		"description": "Exploração mais teórica do React."
+	},
+	{
+		"id": "4",
+		"title": "Styled Components",
+		"type": "Projeto de Curso",
+		"tech": "React",
+		"description": "Como usar Styled Components.",
+		"deploy": "https://styled-components-ebon.vercel.app"
+	},
+	{
+		"id": "5",
+		"title": "Portfólio",
+		"type": "Projeto Pessoal",
+		"tech": "Next.js",
+		"description": "Experimentações de um portfólio pessoal.",
+		"deploy": "https://leothomas.vercel.app"
+	},
+	{
+		"id": "6",
+		"title": "Indiaporã em Next",
+		"type": "Projeto Pessoal",
+		"tech": "Next.js",
+		"description": "Aprendendo a fazer uma landing page em Next nos padrões da empresa. Uso e configuração do React Owl Carousel.",
+		"deploy": "#"
+	},
+	{
+		"id": "7",
+		"title": "Blog em Next",
+		"type": "Projeto Pessoal",
+		"tech": "Next.js",
+		"description": "Criação de um blog a partir de arquivos Markdown.",
+		"deploy": "https://nextjs-blog-v1-two.vercel.app"
+	},
+	{
+		"id": "8",
+		"title": "Consulta CEP",
+		"type": "Projeto de Curso",
+		"tech": "React",
+		"description": "Estudo do hook useState e consumo de API.",
+		"deploy": "https://cep-anotherleo.netlify.app"
+	},
+	{
+		"id": "9",
+		"title": "Wireframes de Portfólio",
+		"type": "Exercício de UI/UX",
+		"tech": "Figma",
+		"description": "Minha primeira tentativa de prototipar um website.",
+		"deploy": "https://www.figma.com/file/Nqt87aKApGdFwkp58mKIxb/Portfolio?node-id=1%3A5&t=CPworlKOmyz9m02j-1"
+	}
+]

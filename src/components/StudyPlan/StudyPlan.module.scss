@@ -1,0 +1,43 @@
+$font: 'Graduate', sans-serif;
+
+.card {
+	margin-bottom: 32px;
+	border-radius: 8px;
+	border: 3px solid #051932;
+	padding: 24px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+
+	h2 {
+		color: #8695A5;
+		font: 600 12px $font;
+		text-transform: uppercase;
+	}
+
+	p {
+		color: #6BD1FF;
+		font: 600 24px $font;
+		text-transform: uppercase;
+	}
+
+	a {
+		display: flex !important;
+		justify-content: center;
+		align-items: center;
+		gap: 8px;
+		color: white;
+		background-color: #051932;
+		text-transform: uppercase;
+		display: block;
+		padding: 12px 0;
+		width: 101%;
+		border: 0;
+		font: 400 16px $font;
+		&:hover {
+			background-color: lighten(#051932, 15%);
+		}
+	}
+}
