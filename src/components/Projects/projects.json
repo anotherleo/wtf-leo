@@ -68,5 +68,14 @@
 		"tech": "Figma",
 		"description": "Minha primeira tentativa de prototipar um website.",
 		"deploy": "https://www.figma.com/file/Nqt87aKApGdFwkp58mKIxb/Portfolio?node-id=1%3A5&t=CPworlKOmyz9m02j-1"
+	},
+	{
+		"id": "10",
+		"title": "Lottie",
+		"type": "Tutorial",
+		"tech": "React",
+		"description": "Uso da lib Lottie com React.",
+		"deploy": "https://lottie-anotherleo.netlify.app/",
+		"repo": "https://github.com/anotherleo/leo-projects/tree/main/studies-v5/tutorial-lottie-2"
 	}
 ]
