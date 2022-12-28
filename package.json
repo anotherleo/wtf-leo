@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@fontsource/edu-qld-beginner": "^4.5.2",
+    "@fontsource/graduate": "^4.5.10",
+    "@fontsource/rubik-dirt": "^4.5.0",
+    "@fontsource/share-tech-mono": "^4.5.9",
     "@next/font": "13.1.0",
     "eslint": "8.30.0",
     "eslint-config-next": "13.1.0",
