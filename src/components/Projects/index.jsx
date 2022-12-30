@@ -17,14 +17,16 @@ export default function Projects() {
 							<p className={styles.tech}>{project.tech}</p>
 							<h3 className={styles.title}>{project.title}</h3>
 							<p className={styles.description}>{project.description}</p>
-							<a href={project.deploy} className={styles.deploy}>
-								<Globe size={16} />
-								Live Preview
-							</a>
-							<a href={project.repo}  className={styles.repo}>
-								<GitBranch size={16} color="white" />
-								Ver Repositório
-							</a>
+							<div className={styles.buttons}>
+								<a href={project.deploy} className={styles.deploy}>
+									<Globe size={16} />
+									Live
+								</a>
+								<a href={project.repo}  className={styles.repo}>
+									<GitBranch size={16} color="white" />
+									Repo
+								</a>
+							</div>
 						</div>
 					</div>
 				)

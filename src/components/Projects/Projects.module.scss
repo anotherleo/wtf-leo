@@ -29,7 +29,7 @@ $fontS: 'Share Tech Mono', sans-serif;
 		margin: 16px 0;
 		padding: 0 16px;
 		text-align: center;
-		font: 400 24px $fontG;
+		font: 900 24px $fontG;
 		letter-spacing: -1px;
 	}
 	.description {
@@ -38,34 +38,40 @@ $fontS: 'Share Tech Mono', sans-serif;
 		font: 400 14px $fontS;
 		letter-spacing: -0.5px;
 	}
-	.deploy {
+	.buttons {
+		display: flex;
 		margin-top: 16px;
-		display: flex;
-		width: 100%;
-		align-items: center;
-		justify-content: center;
-		gap: 8px;	
-		font: 400 14px $fontG;
-		padding: 12px;
-		background-color: darken(#6BD5FF, 15%);
-		color: white;
-		&:hover {
-			background-color: #6BD5FF;
+		.deploy {
+			border-radius: 0 0 0 8px;
+			display: flex;
+			width: 100%;
+			align-items: center;
+			justify-content: center;
+			gap: 8px;	
+			font: 400 14px $fontS;
+			padding: 12px;
+			background-color: darken(#6BD5FF, 15%);
+			color: white;
+			text-transform: uppercase;
+			&:hover {
+				background-color: #6BD5FF;
+			}
 		}
-	}
-	.repo {
-		border-radius: 0 0 8px 8px;
-		display: flex;
-		width: 100%;
-		align-items: center;
-		justify-content: center;
-		gap: 8px;
-		font: 400 14px $fontG;
-		padding: 12px;
-		background-color: #051932;
-		color: white;
-		&:hover {
-			background-color: lighten(#051932, 15%);
+		.repo {
+			border-radius: 0 0 8px 0;
+			display: flex;
+			width: 100%;
+			align-items: center;
+			justify-content: center;
+			gap: 8px;
+			font: 400 14px $fontS;
+			padding: 12px;
+			background-color: #051932;
+			color: white;
+			text-transform: uppercase;
+			&:hover {
+				background-color: lighten(#051932, 15%);
+			}
 		}
 	}
 }

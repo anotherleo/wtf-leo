@@ -1,4 +1,4 @@
-$fontTitle: 'Rubik Dirt', sans-serif;
+$fontTitle: 'Graduate', sans-serif;
 $fontSubtitle: 'Edu QLD Beginner', sans-serif;
 
 .header {
@@ -10,7 +10,7 @@ $fontSubtitle: 'Edu QLD Beginner', sans-serif;
 	margin: 0;
 	font-family: $fontTitle;
 	font-size: 80px;
-	font-weight: 400;
+	font-weight: 900;
 	text-align: center;
 	color: #051932;
 
@@ -18,7 +18,7 @@ $fontSubtitle: 'Edu QLD Beginner', sans-serif;
 	--y-offset: 0.0625em;
 	--stroke: 0.025em;
 	--background-color: white;
-	--stroke-color: blue;
+	--stroke-color: #6BD1FF;
 
 	text-shadow: var(--x-offset) var(--y-offset) 0px var(--background-color),
 		calc(var(--x-offset) - var(--stroke)) calc(var(--y-offset) + var(--stroke)) 0px var(--stroke-color);
