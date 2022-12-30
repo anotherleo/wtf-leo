@@ -80,8 +80,8 @@
 	},
 	{
 		"id": "11",
-		"title": "Projeto de Curso",
-		"type": "Alura Newsletter",
+		"title": "Alura Newsletter",
+		"type": "Projeto de Curso",
 		"tech": "React",
 		"description": "Uso do Tailwind. Dark mode. Projeto com Vite.",
 		"deploy": "https://tailwind-anotherleo.netlify.app",
