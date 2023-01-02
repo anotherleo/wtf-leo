@@ -86,5 +86,14 @@
 		"description": "Uso do Tailwind. Dark mode. Projeto com Vite.",
 		"deploy": "https://tailwind-anotherleo.netlify.app",
 		"repo": "https://github.com/anotherleo/leo-projects/tree/main/studies-v5/alura-newsletter"
+	},
+	{
+		"id": "12",
+		"title": "HZC",
+		"type": "Projeto de Curso",
+		"tech": "HTML e CSS",
+		"description": "Flex e Grid.",
+		"deploy": "https://flexgrid-anotherleo.netlify.app/",
+		"repo": "https://github.com/anotherleo/leo-projects/tree/main/studies-v5/alura-flex-grid"
 	}
 ]
